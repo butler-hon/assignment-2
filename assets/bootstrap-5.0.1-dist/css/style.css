@@ -56,3 +56,31 @@
     height: 6px;
    
 }
+.card img{
+    box-shadow: 6px 6px rgb(88, 77, 71);
+    width: 320px;
+    height: 250px;
+    
+}
+.skill{
+    background-image: url(../../images/image\ 05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.skill p{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 70px;
+    color: rgb(223, 144, 25);
+}
+.skill .border{
+    background: rgb(255, 255, 255);
+    width: 60px;
+    height: 6px;
+}
+.h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
