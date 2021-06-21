@@ -4,7 +4,10 @@
 .navbar-brand{
     font-size: 30px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+    background-color: orange;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header{
     background-image: url(../../images/me\ 02.jpg);
@@ -160,4 +163,50 @@
 }
 .bio span{
     font-weight: bold;
+}
+.pro{
+    margin-top: 7px;
+}
+.pro .border{
+    background: black;
+    width: 60px;
+    height: 6px;
+}
+.pro a{
+    text-align: center;
+    margin-top: 5px;
+}
+.enjoy{
+    margin-top: 9px;
+}
+.enjoy i{
+    width: 100px;
+    height: 100px;
+    color: rgb(19, 18, 18);
+    padding: 20px;
+    transition: 0.2s linear;
+    font-size: 39px
+    
+}
+.bot{
+    text-align: center;
+}
+.enjoy span{
+    font-weight: bold;
+}
+.enjoy p{
+    color: black;
+    text-align: center;
+}
+.bag{
+    background-color: rgb(255, 188, 100);
+    height: 650px;
+}
+.hael{
+    background-color:  rgb(136, 252, 107);
+    height: 650px;
+}
+.h1{
+    text-align: start;
+    margin-top: 33px;
 }
