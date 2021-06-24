@@ -1,21 +1,61 @@
 .container{
     background-image: url(../../images/image\ 01.jpeg);
 }
+.me {
+    background-image: url(../../images/home.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 30%;
+}
+.you{
+    background-image: url(../../images/project.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 30%;
+}
+.us{
+    background-image: url(../../images/liiks.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 30%;
+}
+.get{
+    background-image: url(../../images/touch.jpg);
+    background-size: cover;
+    margin: 10px;
+    height: 90px;
+    width: 50%;
+}
+.tor{
+    background-image: url(../../images/tor.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 30%;
+}
+.navbar{
+    height: 170px;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
 
 .navbar-brand{
     font-size: 30px;
+    height: 100px;
     font-weight: bold;
     font-family: cursive;
     background-color: orange;
     padding-left: 20px;
     padding-right: 20px;
     text-shadow: 0px 5px 0px olive;
+    padding: 30px;
 }
-.navbar-brand span{
-    position: relative;
-    overflow: hidden;
-    display: block;
-}
+
 .header{
     background-image: url(../../images/crumb.jpg);
     min-height: 400px;
@@ -29,8 +69,9 @@
     margin-top: 4px;
 }
 .header img:hover{
-    transition: .8s linear;
-    box-shadow: 0px 0px 10px 3px white;
+    transition: .5s linear;
+    box-shadow: 0px 0px 5px 3px rgb(226, 106, 7);
+    
 }
 .hk{
     text-align: center;
@@ -270,9 +311,16 @@
 }
 #skills h2{
     text-align: center;
+    color:#000;
 }
 #skills .bot{
     text-align: center;
     font-size: 25px;
     font-weight: 900px;
+}
+#skills img:hover{
+    box-shadow: 0 0 10px 0 rgb(255, 115, 0);
+    
+    transition: o.2s linear;
+    opacity: 7;
 }
