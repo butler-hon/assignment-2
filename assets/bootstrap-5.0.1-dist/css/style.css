@@ -7,17 +7,32 @@
     margin: 10px;
     width: 30%;
 }
+.me :hover{
+    transform: scale(0.75);
+    transition: .7s linear;
+    opacity: 8;
+}
 .you{
     background-image: url(../../images/project.jpg);
     background-size: cover;
     margin: 10px;
     width: 30%;
 }
+.you :hover{
+    transform: scale(0.75);
+    transition: .7s linear;
+    opacity: 8;
+}
 .us{
     background-image: url(../../images/liiks.jpg);
     background-size: cover;
     margin: 10px;
     width: 30%;
+}
+.us :hover{
+    transform: scale(0.75);
+    transition: .7s linear;
+    opacity: 8;
 }
 .get{
     background-image: url(../../images/touch.jpg);
@@ -26,14 +41,25 @@
     height: 90px;
     width: 50%;
 }
+.get :hover{
+    transform: scale(0.75);
+    transition: .7s linear;
+    opacity: 8;
+}
 .tor{
     background-image: url(../../images/tor.jpg);
     background-size: cover;
     margin: 10px;
     width: 30%;
 }
+.tor :hover{
+    transform: scale(0.75);
+    transition: .7s linear;
+    opacity: 8;
+}
 .navbar{
     height: 170px;
+    background-image: url(../../images/nar.jpg);
 }
 .nav-link{
     color: rgb(255, 255, 255);
